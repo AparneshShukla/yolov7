@@ -1,0 +1,13 @@
+train: /workspace/yolov7/custom_dataset/train/images
+val:   /workspace/yolov7/custom_dataset/valid/images
+test:  /workspace/yolov7/custom_dataset/test/images
+
+nc: 3
+names: ['TYPE A', 'TYPE B', 'TYPE C']
+
+roboflow:
+  workspace: yamaha-50qun
+  project: nuts-bolts-detection
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yamaha-50qun/nuts-bolts-detection/dataset/5
